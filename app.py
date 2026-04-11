@@ -37,14 +37,14 @@ if st.button("Predict Attrition"):
         "Department": [department]
     })
 
-# 4. Format data (One-Hot Encoding + Reindexing)
-user_data_encoded = pd.get_dummies(user_input).reindex(columns=model_features, fill_value=0)
+    # 4. Format data (One-Hot Encoding + Reindexing)
+    user_data_encoded = pd.get_dummies(user_input).reindex(columns=model_features, fill_value=0)
 
-# 5. Predict and display
-prediction = model.predict(user_data_encoded)
+    # 5. Predict and display
+    prediction = model.predict(user_data_encoded)
 
-if prediction[0] == 1:
-    st.error("Warning: This employee is at high risk of leaving")
-else: 
-    st.success("This Employee is likely to stay with the company")
+    if prediction[0] == 1:
+        st.error("Warning: This employee is at high risk of leaving")
+    else: 
+        st.success("This Employee is likely to stay with the company")
 
