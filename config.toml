@@ -1,0 +1,15 @@
+[theme]
+# Forces dark mode
+base="dark"
+
+# Google's signature blue for buttons and accents
+primaryColor="#4285F4"
+
+# Deep dark gray for the main background (easier on the eyes than pure black)
+backgroundColor="#121212"
+
+# Slightly lighter gray for sidebars and input boxes
+secondaryBackgroundColor="#1E1E1E"
+
+# Crisp white text
+textColor="#FFFFFF"
