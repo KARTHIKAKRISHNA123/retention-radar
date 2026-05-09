@@ -1,4 +1,5 @@
-# Employee Attrition Prediction
+# RetentionRadar - Employee Attrition Prediction System For Retention
+
 ### An End-to-End Machine Learning Application with Regularized Logistic Regression
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
