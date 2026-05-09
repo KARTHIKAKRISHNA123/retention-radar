@@ -1,4 +1,4 @@
-# RetentionRadar - Employee Attrition Prediction System For Retention
+# RetentionRadar - Employee Attrition And Churn Prediction System
 
 ### An End-to-End Machine Learning Application with Regularized Logistic Regression
 
